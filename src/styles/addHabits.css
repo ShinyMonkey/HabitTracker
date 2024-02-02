@@ -1,0 +1,50 @@
+.modelContainer{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+}
+
+
+.modelTitel{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.inputSection{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.inputSection label{
+    margin-bottom: 5px;
+}
+
+.inputSection input{
+    padding: 5px;
+    border: 2px solid #e3e3e3;
+}
+
+.inputSection input:focus{
+    outline: 2px solid #9da631;
+    border: none;
+}
+
+.btn{
+    margin-top: 10px;
+    background-color: #9da631;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 10px 8px 10px;
+    color: white;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.btn:focus{
+    outline: none;
+    border: none;
+}
+
+
+

@@ -1,0 +1,71 @@
+.GoalsContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.GoalsHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 45px;
+    margin-bottom: 50px;
+}
+
+
+.titleSection{
+    text-transform:uppercase;
+    letter-spacing: 8px;
+    font-size: 20px;
+}
+
+
+
+.AddGoalButton{
+    text-transform:uppercase;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.AddGoalButton:hover{
+    background-color: #93b1c5;
+}
+
+.AddGoalButton img{
+    max-width: 16px;
+    margin-right: 8px;
+}
+
+
+.GoalRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 45px;
+    margin-bottom: 45px;
+}
+
+.Name{
+    text-transform: uppercase;
+}
+
+.Action{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.Action img{
+    max-width: 20px;
+    width: 100%;
+    margin-right: 8px;
+}
+
+.Action img:hover{
+    background-color: #93b1c5;
+}

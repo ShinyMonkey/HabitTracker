@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #89c0e4;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 40px; 
+    height: auto; 
+    margin-right: 10px;
+}
+
+.brand {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

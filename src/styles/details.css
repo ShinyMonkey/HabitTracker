@@ -1,0 +1,46 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex: 1;
+    text-align: center;
+    margin: 10px; /* Adjust the margin to your preference */
+  }
+  
+  .day-headings {
+    font-weight: bold;
+  }
+  
+.custom-box {
+  position: relative;
+  display: inline-block;
+  width: 20px; 
+  height: 20px; 
+  background-color: #fff; 
+  border: 1px solid #ccc;
+  outline: none;
+  cursor: pointer;
+}
+
+.custom-box:focus {
+  outline: none;
+}
+
+.null {
+  background-color: #fff; 
+}
+
+.done img,
+.fail img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.fail {
+  background-color: #ff0000; 
+  border-color: #ff0000;
+}
+  
